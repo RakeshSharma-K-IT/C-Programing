@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int i,n;
+    printf("Enter the number of elements =");
+    scanf("%d",&n);
+    int a[n];
+    printf("Enter the Array elements:");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+
+    }
+
+printf("Entered Array elements are =");
+
+for(i=0;i<n;i++)
+{
+    printf("%d \n",a[i]);
+}
+
+int sum=0;
+
+for(i=0;i<n;i++)
+{
+    sum+=a[i];
+
+}
+printf("The  Sum of Array elements are= %d",sum);
+
+return 0;
+}
