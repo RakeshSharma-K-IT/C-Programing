@@ -19,8 +19,6 @@ for(i=0;i<n;i++)
     printf("%d \n",a[i]);
 }
 
-    printf("The First even number in an array is ");
-
     for(i=0;i<n;i++)
     {
         if(a[i]%2==0)
